@@ -41,6 +41,7 @@ if (hour < 18){
     greeting2 = 'Good Evening!'
  }
 
+
 document.getElementById('saluto').innerHTML = greeting;
 document.getElementById('saluto').style.fontSize = '3em';
 document.getElementById('saluto').style.color = 'Darkblue';
@@ -51,8 +52,9 @@ document.getElementById('saluto2').style.fontSize = '3em';
 document.getElementById('saluto2').style.color = 'Darkblue';
 document.getElementById('saluto2').style.textAlign = 'center';
 
-//function myFunction() {}
+function myFunction() {
     let person = prompt('Please enter your name');
     if (person != null) {
         document.getElementById('chi-sei?').innerHTML = 'Ciao' + ' ' + person + ' ' + 'Come stai oggi?';
     }
+}
