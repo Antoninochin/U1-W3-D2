@@ -3,28 +3,29 @@ document.getElementById('h1').style.color = '#492aa0';
 
 var number = 20;
 
-document.write(number,' ');
+console.log(number);
 
 
 var number = 30;
 
-document.write( number, ' ');
-
+console.log(number);
+//Si possono utilizzare più number con var
 
 let number1 = 40;
 
-document.write(number1, ' ');
+console.log(number1)
 
 /*let number1 = 50;
 
-document.write(number1, ' ');*/
+document.write(number1, ' ');
+Non si possono utilizzare 2 numer1 con let*/
 console.log(number1)
  
+//operazione con js
 let somma = 2+6-5;
 console.log(somma)
 
-document.write(somma);
-
+//If e else senza prompt
 const hour = new Date().getHours();
 let greeting;
 let greeting2;
